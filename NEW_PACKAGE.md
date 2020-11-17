@@ -8,7 +8,7 @@ New package should be created/generated following the usual structure of registe
 
 #### License
 
-I will assume that a new HoJ package will be licensed under an open-source license. If the package managers prefers to publish unlicensed code, please use `The Unlicensed` license (such as in this repository). Otherwise, a simple way to look at things is if the OSS license should be permissive (for instance MIT) or not (GPL). 
+I will assume that a new HoJ package will be licensed under an open-source license. If the package managers prefers to publish unlicensed code, please use `The Unlicense` license (such as in this repository). Otherwise, a simple way to look at things is if the OSS license should be permissive (for instance MIT) or not (GPL). 
 
 To illustrate the difference, let's use the example of `StaticWebPages.jl` and [Bibliography.jl](https://github.com/Azzaare/Bibliography.jl). The last is a bibliography format manager used here by [StaticWebPages.jl](https://github.com/Azzaare/StaticWebPages.jl), among others such as (soon) `Documenter.jl`, to handle bibliography output in a webformat.
 - `Biblography.jl` is designed to be used by various software and packages, as such it has a permissive OSS license (MIT). It allows users and companies to use it without worries (unless they decide to publish their code). Please note that anyone building upon this package can use a more restrictive license.
